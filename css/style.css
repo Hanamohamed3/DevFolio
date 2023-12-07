@@ -1,0 +1,287 @@
+body,html{
+    background-color: #D3D3D3;
+    scroll-behavior:smooth;
+}
+
+
+
+/* START NAV BAR */
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+    color: #fff;
+    text-decoration: underline;
+    transition: all 0.5s;
+
+}
+/* END NAV BAR */
+/* START HOME SECTION */
+#home{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+/* END HOME SECTION */
+/* START ABOUT-ME SECTION */
+.div5 h2::after{
+    content: "";
+    position: absolute;     
+    width: 15%;
+    height: 0.3rem;
+    /* left: 50%; */
+ bottom: -5px;
+    transform: translateX(-150%);
+    background-color: blue;    
+ } 
+
+.bars .html{
+    width: 85%;
+    height:0.5rem;
+    background-color: blue;
+}
+
+.bars .lightblue{
+    width: 15%;
+    height:0.5rem;
+    background-color:#89CFF0;
+}
+.bars .css-class{
+    width: 75%;
+    height:0.5rem;
+    background-color: blue;
+}
+
+.bars .lightblue-two{
+    width: 25%;
+    height:0.5rem;
+    background-color:#89CFF0;
+}
+.bars .php-class{
+    width: 50%;
+    height:0.5rem;
+    background-color: blue;
+}
+
+.bars .lightblue-three{
+    width: 50%;
+    height:0.5rem;
+    background-color:#89CFF0;
+}
+.bars .js-class{
+    width: 90%;
+    height:0.5rem;
+    background-color: blue;
+}
+
+.bars .lightblue-four{
+    width: 10%;
+    height:0.5rem;
+    background-color:#89CFF0;
+}
+
+/* END ABOUT-ME SECTION */
+
+/* START SERVICES SECTION */
+ .services .p1::after{
+   content: "";
+   position: absolute;     
+   width: 5%;
+   height: 0.7rem;
+   left: 50%;
+bottom: 0;
+   transform: translateX(-50%);
+   background-color: blue;    
+} 
+
+.services .div2 :hover i{
+    background-color: blue;
+    border-color: rgba(0, 200, 255, 0.7);
+    opacity: 0.8;
+    color: white;
+}
+.inner{
+    position:absolute;
+    top: 0%;
+    left: 0; 
+     height: 100%;
+    width: 100%; 
+background-color: rgba(0, 0, 255, 0.7);
+padding: 100px;
+
+}
+.numbers-section{
+    background-image: url(../images/counters-bg.jpg);
+}
+/* END SERVICES SECTION */
+/* START PORTIFOLIO SECTION */
+.portfolio .p2::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.7rem;
+    left: 50%;
+ bottom: 0;
+    transform: translateX(-50%);
+    background-color: blue;       
+ } 
+ .portfolio .div3{
+    position: relative;
+    overflow: hidden;
+    }
+    .portfolio img{
+        width: 100%;
+        transition: all 1s ease-in-out;
+        overflow: hidden;
+    }
+    .portfolio img:hover {
+        transform: scale(1.2);
+        overflow: hidden;
+    }
+ /* END PORTFOLIO SECTION */
+/* START BLOG SECTION */
+ .blog .p2::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.7rem;
+    left: 50%;
+ bottom: 0;
+    transform: translateX(-50%);
+    background-color: blue;       
+ } 
+.last-part .sora img{
+    width: 40px;
+}
+.last-part{
+    background-color: #D3D3D3;
+    border-top: 1px solid lightslategray;
+}
+
+/* END BLOG SECTION */
+/* START CONTACT-US SECTION */
+.div8 .total .firsttt h2::after{
+    content: "";
+    position: absolute;     
+    width: 35%;
+    height: 0.3rem;
+    /* left: 50%; */
+ bottom: -5px;
+    transform: translateX(-280%);
+    background-color: blue;    
+ } 
+ .div8 h2::after{
+    content: "";
+    position: absolute;     
+    width: 15%;
+    height: 0.3rem;
+    /* left: 50%; */
+ bottom: -5px;
+    transform: translateX(-200%);
+    background-color: blue;    
+ } 
+ 
+.numbers-sectionn{
+    background-image: url(../images/overlay-bg.jpg);
+}
+/* END CONTACT-US SECTION */
+/* keyframes for text in home section */
+@keyframes typing {
+    0%, 27.3488% { content: ""; }
+    1.1395%, 26.2093% { content: "D"; }
+    2.2791%, 25.0698% { content: "De"; }
+    3.4186%, 23.9302% { content: "Dev"; }
+    4.5581%, 22.7907% { content: "Deve"; }
+    5.6977%, 21.6512% { content: "Devel"; }
+    6.8372%, 20.5116% { content: "Develo"; }
+    7.9767%, 19.3721% { content: "Develop"; }
+    9.1163%, 18.2326% { content: "Develope"; }
+    10.2558%, 17.0930% { content: "Developer"; }
+  
+    30.7674%, 53.2791% { content: ""; }
+    31.9070%, 52.1395% { content: "F"; }
+    33.0465%, 51.0000% { content: "Fr"; }
+    34.1860%, 50.8605% { content: "Fre"; }
+    35.3256%, 49.7209% { content: "Free"; }
+    36.4651%, 48.5814% { content: "Freel"; }
+    37.6047%, 47.4419% { content: "Freela"; }
+    38.6047%, 46.4419% { content: "Freelan"; }
+    39.6047%, 45.4419% { content: "Freelanc"; }
+    40.6047%, 43.4419% { content: "Freelance"; }
+    41.6047%, 42.4419% { content: "Freelancer"; }
+
+
+  
+    57.2791%, 82.554% { content: ""; }
+    58.8372%, 81.0698% { content: "P"; }
+    59.9767%, 80.9302% { content: "Ph"; }
+    60.1163%, 79.7907% { content: "Pho"; }
+    61.2558%, 78.6512% { content: "Phot"; }
+    62.3953%, 77.5116% { content: "Photo"; }
+    63.5349%, 76.3721% { content: "Photog"; }
+    64.5349%, 75.3721% { content: "Photogr"; }
+    65.5349%, 74.3721% { content: "Photogra"; }
+    66.5349%, 73.3721% { content: "Photograp"; }
+    67.5349%, 72.3721% { content: "Photograph"; }
+    68.5349%, 71.3721% { content: "Photographe"; }
+    69.5349%, 70.3721% { content: "Photographer"; }
+
+
+  
+    85.6279%, 102.8605% { content: ""; }
+    86.7674%, 101.7209% { content:"D"; }
+    87.9070%, 100.5814% { content: "De"; }
+    88.0465%, 99.4419% { content: "Des"; }
+    89.1860%, 98.3023% { content: "Desi"; }
+    90.3256%, 97.1628% { content: "Design"; }
+    91.3256%, 96.1628% { content: "Designe"; }
+    92.3256%, 95.1628% { content: "Designer"; }
+
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+  }
+  
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+  
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+    
+    @keyframes sequencePopup {
+      0%, 100% { content: "developer"; }
+      25% { content: "writer"; }
+      50% { content: "reader"; }
+      75% { content: "human"; }
+    }
+  
+    .typewriter::before {
+      content: "developer";
+      animation: sequencePopup 12s linear infinite;
+    }
+  }
+/* END */
+  
